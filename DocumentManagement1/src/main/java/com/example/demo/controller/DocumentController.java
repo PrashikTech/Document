@@ -10,7 +10,7 @@ import com.example.demo.service.PdfDocumentServcie;
 
 @RestController
 public class DocumentController {
-	@GetMapping("print/{type}")
+	@GetMapping("xerox/{type}")
 	String PrintInvoice(@PathVariable String type) {
 
 		DocumentService ds = null;
